@@ -1,0 +1,15 @@
+# ============================================================
+# WriteAble – Requirements
+# ============================================================
+# This file lists all the Python packages our app needs.
+# Streamlit uses this to install everything on deployment.
+# ============================================================
+
+# --- Main UI framework ---
+streamlit          # runs the whole web app
+
+# --- For reading DOCX files ---
+python-docx        # lets us extract text from Word documents
+
+# --- For reading PDF files ---
+PyPDF2             # used by extractor.py to read PDF pages
